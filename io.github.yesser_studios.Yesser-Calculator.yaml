@@ -32,6 +32,7 @@ modules:
       - type: git
         url: https://github.com/yesser-studios/yesser-calculator.git
         tag: 1.2.0
+        commit: d8a4ba0c0f3b9d37bb63c20929a046009b957185
       - ./nuget-sources.json
     build-commands:
       - dotnet publish YesserCalculator/YesserCalculator.csproj -c Release --no-self-contained --source ./nuget-sources
